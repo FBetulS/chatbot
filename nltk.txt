@@ -1,0 +1,2 @@
+dependencies:
+  - nltk_data

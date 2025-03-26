@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "How are you?", "Good day", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you?", "Hi! How can I help you today?", "Good day! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you", "See you later", "Logout"],
+      "responses": ["Goodbye! Have a nice day!", "See you soon!", "Feel free to ask if you need more help!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "You helped a lot", "You're awesome", "You're amazing"],
+      "responses": ["You're welcome!", "My pleasure!", "Happy to help!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["How's the weather?", "Will it rain today?", "What's the temperature?", "What's the wind speed?"],
+      "responses": ["Currently sunny and 25°C.", "No rain expected today.", "Temperature ranges between 22°C to 28°C."]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["I need an appointment", "Book a doctor", "Any available time?", "Can I get an appointment today?"],
+      "responses": ["Please visit our website for appointments.", "Next available slot is tomorrow at 2 PM."]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["What's the price?", "Any discounts?", "Is it in stock?", "Can I see product specs?"],
+      "responses": ["This product costs $499.", "Currently 20% off!", "Available in stock."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint", "Defective product", "Not satisfied", "How to return?"],
+      "responses": ["We're here to resolve your issue.", "Please email support@company.com."]
+    },
+    {
+      "tag": "humor",
+      "patterns": ["Tell a joke", "Say something funny", "Make me laugh", "Can you be funny?"],
+      "responses": ["Why did the chicken cross the road? To get to the other side!", "As an AI, I try to be funny. Did it work?"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Current time?", "What's the time?"],
+      "responses": ["It's 3:30 PM now.", "The time is 3:30."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "How to use?", "Need support", "Can you guide me?"],
+      "responses": ["How can I assist you?", "Please explain your issue in detail."]
+    }
+  ]
+}
